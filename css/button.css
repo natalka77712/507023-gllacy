@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: #f2f6f8;
+  margin-bottom: 60px;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 740px;
+  margin: 0 auto;
+}
+
+.main-header .top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bttn-more-information {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  font: inherit;
+  text-align: right;
+  color: #ffffff;
+  padding: 7px 29px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.header-logo {
+  margin: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px;
+  margin-bottom: -5px;
+}
+
+.header-logo-link {
+  padding-top: 10px;
+  padding-bottom: 8px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border-bottom: 5px solid #b52933;
+}
+
+.header-logo-link[href]:hover {
+  background-color: #ca2c37;
+  border-bottom: 5px solid #9a212a;
+}
+
+.header-logo-link[href]:active {
+  background-color: #ba2732;
+  border-bottom: 5px solid #8e1e26;
+}
+
+.header-hot-keys {
+  background-color: #293449;
+}
+
+.header-hot-keys a {
+  color: #ffffff;
+}
